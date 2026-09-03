@@ -1,0 +1,22 @@
+# Virtual Environment
+yolo_env
+yolo_env/
+yolov_env
+yolov_env/
+
+# macOS system files
+.DS_Store
+
+# Datasets
+Detecting diseases.v6i.yolov8/
+*.mp4
+*.jpg
+*.png
+
+# Ignore heavy PyTorch weights and runs
+*.pt
+runs/
+
+# Python cache
+__pycache__/
+*.pyc
